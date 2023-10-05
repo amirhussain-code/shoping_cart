@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart_design</title>
+    <style>
+
+        .cart{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+          
+        }
+        .main .box{
+            width: 400px;
+            height: 600px;
+            background-color: azure;
+            margin: 20px;
+            justify-content: center;
+            text-align: center;
+            justify-content: center;
+            border-radius: 14px;
+            box-shadow: 4px 2px 9px 2px gray;
+         
+        }
+
+        .main .box:hover{
+            color: white;
+            background-color: tomato;
+
+        } 
+        .main .box:active{
+            color: white;
+            background-color: tomato;
+
+        } 
+        .heading h1{
+            align-items: center;
+        }
+
+        span{
+            font-size: 40px;
+        }
+        .box div{
+            font-size: 20px;
+        }
+        p{
+            line-height: 30px;
+        }
+        button{
+            font-size: 20px;
+            padding:10px 20px;
+            border-radius: 20px;
+            background-color:tomato;
+            color: white;
+            border: none;
+        }
+        button:hover{
+            background-color: white;
+            color: tomato;
+        }
+        body
+        {
+            background-color: rgb(173, 241, 219);
+        }
+    </style>
+</head>
+<body>
+    <header class="heder">
+
+    </header>
+    <main class="main">
+        <section class="heading">
+            <h1 style="font-size: 60px;text-align: center; margin: 2px;">Rooms Available</h1>
+        </section>
+        <section class="cart">
+            <div class="box">
+              <img src="platinum.jpg" alt="pic" style="width: 400px; height: 230px;">
+                <h1>Economy</h1>
+                <div>$ <span>30</span>/Night</div>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                     adipisicing elit. Expedita <br>Lorem ipsum dolor sit amet consectetur <br> voluptate cupiditate </p>
+                <button type="submit">Book now</button>
+            </div>
+            <div class="box">
+                <img src="gold (1).jpg" alt="pic" style="width: 400px; height: 230px;">
+                <h1>Bussines</h1>
+                <div>$ <span>60</span> /Night</div>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>
+                        adipisicing elit. Expedita <br> Lorem ipsum dolor sit amet consectetur <br>voluptate cupiditate </p>
+                <button>Book now</button>
+            </div>
+            <div class="box">
+                <img src="pic.jpg" alt="pic" style="width: 400px; height: 230px;">
+                <h1>Executive</h1>
+                <div>$ <span>90</span>/Night</div>
+                  <p>Lorem ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Expedita <br>Lorem ipsum dolor sit amet consectetur <br> voluptate cupiditate </p>
+                <button>Book now</button>
+            </div>
+        </section>
+    </main>
+    <footer class="foter">
+
+    </footer>
+
+</body>
+</html>
